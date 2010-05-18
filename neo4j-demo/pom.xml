@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.protocol7</groupId>
+	<artifactId>neo4j-demo</artifactId>
+	<name>neo4j demo</name>
+	<version>0.1-SNAPSHOT</version>
+
+	<repositories>
+		<repository>
+			<id>neo4j-public-repository</id>
+			<url>http://m2.neo4j.org </url>
+		</repository>
+	</repositories>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>org.neo4j</groupId>
+			<artifactId>neo4j-kernel</artifactId>
+			<version>1.0</version>
+		</dependency>
+	</dependencies>
+</project>
